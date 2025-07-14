@@ -1,6 +1,12 @@
+import Hero from '../components/Hero';
+
 function HomePage() {
-    return <h1>Home Page</h1>;
+    return (
+        <div>
+            <Hero />
+            {/* We will add other sections like "Featured Projects" here later */}
+        </div>
+    );
 }
 
 export default HomePage;
-// This is a simple HomePage component that renders a heading.
